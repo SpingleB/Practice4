@@ -1,0 +1,171 @@
+:root {
+
+}
+
+html {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+}
+
+
+.font-young-serif {
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-p-sizes-colors {
+    font: normal 400 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.padding-left-in-ol-ul {
+    padding-left: 6%;
+}
+
+
+
+.container {
+    position: relative;
+    margin-top: 10vh;
+    width: 35vw;
+    background-color: hsl(0, 0%, 100%);
+    padding: 6% 6%;
+    border-radius: 20px;
+    margin-bottom: 10vh;
+}
+
+.main-img-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-img-div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+}
+
+.preparation-time-div {
+    width: 100%;
+    margin: 8% 0% 8% 1%;
+}
+
+#h3-preparation-time {
+    color: hsl(332, 51%, 32%);
+    margin-left: 2.5%;
+    font-weight: 600;
+}
+
+.preparation-time-div ul li {
+    margin-bottom: 2%;
+}
+
+.preparation-time-div ul li p{
+    margin-left: 2%;
+}
+
+.preparation-time-div ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-div {
+    width: 100%;
+    border-bottom: 1px solid hsla(30, 10%, 34%, 0.2);
+    padding-bottom: 4%;
+}
+
+
+
+.ingredients-div ul li {
+    margin-bottom: 2%;
+}
+
+.ingredients-div ul li p{
+    margin-left: 2%;
+}
+
+.ingredients-div ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-div {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.instructions-div ol li {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.instructions-div ol li p{
+    margin-left: 2%;
+}
+
+.instructions-div {
+    width: 100%;
+    border-bottom: 1px solid hsla(30, 10%, 34%, 0.2);
+    padding-bottom: 4%;
+}
+
+#th {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.td1-of-tr-of-table {
+    font: normal 400 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.td2-of-tr-of-table {
+    font: normal 16px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border-bottom: 1px solid hsla(30, 10%, 34%, 0.2);
+    
+}
+
+table p {
+    margin-left: 10%;
+}
